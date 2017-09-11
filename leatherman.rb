@@ -3,8 +3,9 @@ class Leatherman < Formula
   homepage "https://github.com/puppetlabs/leatherman"
   head "https://github.com/puppetlabs/leatherman.git"
 
-  depends_on "boost"
   depends_on "cmake" => :build
+
+  depends_on "boost"
   depends_on "yaml-cpp"
 
   def install

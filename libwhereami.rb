@@ -1,7 +1,7 @@
-class CppHocon < Formula
-  desc "A C++ port of the Typesafe Config library."
-  homepage "https://github.com/puppetlabs/cpp-hocon"
-  head "https://github.com/puppetlabs/cpp-hocon.git"
+class Libwhereami < Formula
+  desc "libwhereami detects virtualization environments."
+  homepage "https://github.com/puppetlabs/libwhereami"
+  head "https://github.com/puppetlabs/libwhereami.git"
 
   depends_on "cmake"      => :build
   depends_on "leatherman" => :build
@@ -11,6 +11,7 @@ class CppHocon < Formula
 
   def install
     system "cmake", ".", *std_cmake_args
+    system "make"
     system "make", "install"
   end
 
