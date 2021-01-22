@@ -1,7 +1,7 @@
 class CppHocon < Formula
   desc "A C++ port of the Typesafe Config library."
   homepage "https://github.com/puppetlabs/cpp-hocon"
-  head "https://github.com/puppetlabs/cpp-hocon.git"
+  head "https://github.com/puppetlabs/cpp-hocon.git", branch: "main"
 
   depends_on "cmake"      => :build
   depends_on "leatherman" => :build
