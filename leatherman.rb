@@ -1,7 +1,7 @@
 class Leatherman < Formula
   desc "A collection of C++ and CMake utility libraries."
   homepage "https://github.com/puppetlabs/leatherman"
-  head "https://github.com/puppetlabs/leatherman.git"
+  head "https://github.com/puppetlabs/leatherman.git", branch: "main"
 
   depends_on "cmake" => :build
 

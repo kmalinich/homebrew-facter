@@ -1,7 +1,7 @@
 class Facter < Formula
   desc "Collect and display system facts"
   homepage "https://tickets.puppet.com/browse/FACT"
-  head "https://github.com/puppetlabs/facter.git"
+  head "https://github.com/puppetlabs/facter.git", branch: "main"
 
   depends_on "cmake"      => :build
   depends_on "cpp-hocon"  => :build

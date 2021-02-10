@@ -1,7 +1,7 @@
 class Libwhereami < Formula
   desc "libwhereami detects virtualization environments."
   homepage "https://github.com/puppetlabs/libwhereami"
-  head "https://github.com/puppetlabs/libwhereami.git"
+  head "https://github.com/puppetlabs/libwhereami.git", branch: "main"
 
   depends_on "cmake"      => :build
   depends_on "leatherman" => :build
